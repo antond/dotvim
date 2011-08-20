@@ -40,3 +40,6 @@
 [submodule "bundle/sweet-rspec-vim"]
 	path = bundle/sweet-rspec-vim
 	url = git://github.com/antond/sweet-rspec-vim.git
+[submodule "bundle/vim-cucumber"]
+	path = bundle/vim-cucumber
+	url = git://github.com/antond/vim-cucumber.git
