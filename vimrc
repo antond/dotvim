@@ -5,3 +5,7 @@ call pathogen#runtime_append_all_bundles()			"load all the bundles
 filetype off							"prevent pathogen from failing to load
 syntax on							"enable syntax highlighting
 filetype plugin indent on					"turn on ftplugins and indents
+
+"set NERDTree mappings
+silent! nmap <silent> <Leader>p :NERDTreeToggle<CR>
+nnoremap <silent> <C-f> :call FindInNERDTree()<CR>

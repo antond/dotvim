@@ -13,3 +13,6 @@
 [submodule "bundle/vim-rooter"]
 	path = bundle/vim-rooter
 	url = git://github.com/antond/vim-rooter
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = git://github.com/antond/nerdtree.git
