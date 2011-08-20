@@ -22,3 +22,6 @@
 [submodule "bundle/html5.vim"]
 	path = bundle/html5.vim
 	url = git@github.com:antond/html5.vim.git
+[submodule "bundle/scss-syntax.vim"]
+	path = bundle/scss-syntax.vim
+	url = git@github.com:antond/scss-syntax.vim.git
