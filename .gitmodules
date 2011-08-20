@@ -19,3 +19,6 @@
 [submodule "colors/railscasts"]
 	path = colors/railscasts
 	url = git://github.com/antond/VIM-Railscasts-Color-Theme.git
+[submodule "bundle/html5.vim"]
+	path = bundle/html5.vim
+	url = git@github.com:antond/html5.vim.git
