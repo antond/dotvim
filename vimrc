@@ -24,3 +24,6 @@ if has("gui_running")
 endif
 
 set guioptions-=T						"turn off macvim toolbar
+
+"enable jquery.vim
+au BufRead,BufNewFile jquery.*.js set ft=javascript syntax=jquery
