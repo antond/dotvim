@@ -10,3 +10,6 @@
 [submodule "bundle/Command-T"]
 	path = bundle/Command-T
 	url = git://github.com/antond/Command-T.git
+[submodule "bundle/vim-rooter"]
+	path = bundle/vim-rooter
+	url = git://github.com/antond/vim-rooter
