@@ -7,3 +7,6 @@
 [submodule "bundle/rails"]
 	path = bundle/rails
 	url = git://github.com/antond/vim-rails.git
+[submodule "bundle/Command-T"]
+	path = bundle/Command-T
+	url = git://github.com/wincent/Command-T.git
