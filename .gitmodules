@@ -27,4 +27,4 @@
 	url = git@github.com:antond/scss-syntax.vim.git
 [submodule "bundle/vim-coffee-script"]
 	path = bundle/vim-coffee-script
-	url = git://github.com/kchmck/vim-coffee-script.git
+	url = git://github.com/antond/vim-coffee-script.git
