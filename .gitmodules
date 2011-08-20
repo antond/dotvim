@@ -16,3 +16,6 @@
 [submodule "bundle/nerdtree"]
 	path = bundle/nerdtree
 	url = git://github.com/antond/nerdtree.git
+[submodule "colors/railscasts"]
+	path = colors/railscasts
+	url = git://github.com/antond/VIM-Railscasts-Color-Theme.git
