@@ -39,8 +39,6 @@ nnoremap <silent> <C-f> :call FindInNERDTree()<CR>
 if has("gui_running")
   set t_Co=256							"set num of terminal colors
   colorscheme railscasts					"set railscasts color scheme
-  set lines=46
-  set columns=180
   
   "mac-specific GUI settings
   if has("gui_mac") || has("gui_macvim")
