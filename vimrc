@@ -27,6 +27,10 @@ set nobackup                      				"don't make a backup before overwriting a 
 set nowritebackup                 				"and again don't
 set directory=$HOME/.vim/tmp//,.  				"keep swap files in one location; git-ignored
 
+set laststatus=2                  				"always show status-line
+"better status info
+set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}%{exists('*CapsLockStatusline')?CapsLockStatusline():''}%=%-16(\ %l,%c-%v\ %)%P
+
 "set NERDTree mappings
 silent! nmap <silent> <Leader>p :NERDTreeToggle<CR>
 nnoremap <silent> <C-f> :call FindInNERDTree()<CR>
