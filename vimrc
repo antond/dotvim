@@ -9,6 +9,7 @@ syntax on							"enable syntax highlighting
 filetype plugin indent on					"turn on ftplugins and indents
 set showcmd							"display incomplete commands
 set showmode							"show current mode
+set backspace=indent,eol,start    				"intuitive backspace
 
 
 "set NERDTree mappings
