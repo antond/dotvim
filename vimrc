@@ -35,18 +35,9 @@ set statusline=[%n]\ %<%.99f\ %h%w%m%r%y\ %{fugitive#statusline()}%{exists('*Cap
 silent! nmap <silent> <Leader>p :NERDTreeToggle<CR>
 nnoremap <silent> <C-f> :call FindInNERDTree()<CR>
 
-"settings while in GUI mode
-if has("gui_running")
-  set t_Co=256							"set num of terminal colors
-  colorscheme railscasts					"set railscasts color scheme
-  
-  "mac-specific GUI settings
-  if has("gui_mac") || has("gui_macvim")
-    set gfn=Monaco:h12
-  endif
-endif
-
-set guioptions-=T						"turn off macvim toolbar
+set t_Co=256							"set num of terminal colors
+colorscheme railscasts						"set railscasts color scheme
+set gfn=Monaco:h12
 
 "enable jquery.vim
 au BufRead,BufNewFile jquery.*.js set ft=javascript syntax=jquery
