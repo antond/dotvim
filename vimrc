@@ -59,3 +59,15 @@ set macmeta 							"required for the <M-D-r> mapping bellow
 map <D-r> :SweetVimRspecRunFile<CR> 				"(CMD-r) or (Apple-r)
 map <D-R> :SweetVimRspecRunFocused<CR> 				"(SHIFT-CMD-r)
 map <M-D-r> :SweetVimRspecRunPrevious<CR> 			"(OPT-CMD-r)
+
+"tab mappings
+map <leader>tt :tabnew<cr>
+map <leader>te :tabedit
+map <leader>tc :tabclose<cr>
+map <leader>to :tabonly<cr>
+map <leader>tn :tabnext<cr>
+map <leader>tp :tabprevious<cr>
+map <leader>tf :tabfirst<cr>
+map <leader>tl :tablast<cr>
+map <leader>tm :tabmove
+
