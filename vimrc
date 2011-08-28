@@ -10,7 +10,22 @@ filetype plugin indent on					"turn on ftplugins and indents
 set showcmd							"display incomplete commands
 set showmode							"show current mode
 set backspace=indent,eol,start    				"intuitive backspace
-
+set hidden                        				"better multibuffer handling
+set wildmenu                      				"better command line completion
+set wildmode=list:longest         				"shell-style filename completion
+set ignorecase                    				"case-insensitive searching
+set smartcase                     				"case-sensitive when expression contains a capital letter
+set number                        				"show line numbers
+set ruler                         				"show curpos
+set incsearch                     				"highlight as you type
+set hlsearch                      				"highlight matches
+set wrap                          				"turn on on line wrap
+set scrolloff=3                   				"show 3 lines around the cursor
+set title                         				"set the terminal's title
+set visualbell                    				"no beeps
+set nobackup                      				"don't make a backup before overwriting a file
+set nowritebackup                 				"and again don't
+set directory=$HOME/.vim/tmp//,.  				"keep swap files in one location; git-ignored
 
 "set NERDTree mappings
 silent! nmap <silent> <Leader>p :NERDTreeToggle<CR>
