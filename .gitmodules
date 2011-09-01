@@ -4,8 +4,8 @@
 [submodule "bundle/vim-fugitive"]
 	path = bundle/vim-fugitive
 	url = git://github.com/antond/vim-fugitive.git
-[submodule "bundle/rails"]
-	path = bundle/rails
+[submodule "bundle/vim-rails"]
+	path = bundle/vim-rails
 	url = git://github.com/antond/vim-rails.git
 [submodule "bundle/Command-T"]
 	path = bundle/Command-T
