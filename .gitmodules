@@ -67,3 +67,6 @@
 [submodule "snipmate-snippets"]
 	path = snipmate-snippets
 	url = git://github.com/antond/snipmate-snippets.git
+[submodule "bundle/bufexplorer"]
+	path = bundle/bufexplorer
+	url = git://github.com/antond/bufexplorer.zip.git
