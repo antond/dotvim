@@ -61,3 +61,9 @@ map <leader>tl :tablast<cr>
 map <leader>tm :tabmove
 
 set foldmethod=syntax						" enable syntax-based folding
+
+"indent settings
+set shiftwidth=2
+set softtabstop=2
+set expandtab
+set autoindent

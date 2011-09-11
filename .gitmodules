@@ -76,3 +76,6 @@
 [submodule "snippets"]
 	path = snippets
 	url = git@github.com:antond/snipmate-snippets.git
+[submodule "bundle/Align"]
+	path = bundle/Align
+	url = git@github.com:antond/Align.git
