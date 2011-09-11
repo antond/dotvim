@@ -73,3 +73,6 @@
 [submodule "bundle/vim-rvm"]
 	path = bundle/vim-rvm
 	url = git@github.com:antond/vim-rvm.git
+[submodule "bundle/vim-bundler"]
+	path = bundle/vim-bundler
+	url = git@github.com:antond/vim-bundler.git
