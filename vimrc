@@ -61,3 +61,17 @@ map <leader>tl :tablast<cr>
 map <leader>tm :tabmove
 
 set foldmethod=syntax						" enable syntax-based folding
+
+"snipmate setup
+source ~/.vim/snipmate-snippets/support_functions.vim
+autocmd vimenter * call s:SetupSnippets()
+function! s:SetupSnippets()
+  "if we're in a rails env then read in the rails snippets
+  if filereadable("./config/environment.rb")
+    call ExtractSnips("~/.vim/snipmate-snippets/ruby-rails", "ruby")
+    call ExtractSnips("~/.vim/snipmate-snippets/eruby-rails", "eruby")
+  endif
+
+  call ExtractSnips("~/.vim/snippets/html", "eruby")
+  call ExtractSnips("~/.vim/snippets/html", "xhtml")
+endfunction
