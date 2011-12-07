@@ -44,13 +44,10 @@ au BufRead,BufNewFile jquery.*.js set ft=javascript syntax=jquery
 
 "sweet-rspec-vim mappings
 
-set macmeta 							"required for the <M-D-r> mapping bellow
 map <D-r> :SweetVimRspecRunFile<CR> 				"(CMD-r) or (Apple-r)
 map <D-R> :SweetVimRspecRunFocused<CR> 				"(SHIFT-CMD-r)
-map <M-D-r> :SweetVimRspecRunPrevious<CR> 			"(OPT-CMD-r)
 
 "tab mappings
-map <leader>tt :tabnew<cr>
 map <leader>te :tabedit
 map <leader>tc :tabclose<cr>
 map <leader>to :tabonly<cr>
