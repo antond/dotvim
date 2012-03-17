@@ -35,6 +35,7 @@ Bundle 'antond/MatchTag'
 Bundle 'antond/jshint.vim'
 Bundle 'antond/vim-css3-syntax'
 Bundle 'antond/vim-stylus'
+Bundle 'antond/vim-jade'
 
 filetype off							"prevent pathogen from failing to load
 syntax on							"enable syntax highlighting
