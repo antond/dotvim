@@ -38,6 +38,7 @@ Bundle 'antond/vim-stylus'
 Bundle 'antond/vim-jade'
 Bundle 'antond/tcomment_vim'
 Bundle 'antond/nerdcommenter'
+Bundle 'antond/vim-easymotion'
 
 filetype off							"prevent pathogen from failing to load
 syntax on							"enable syntax highlighting
