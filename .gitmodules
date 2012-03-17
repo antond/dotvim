@@ -82,3 +82,6 @@
 [submodule "bundle/MatchTag"]
 	path = bundle/MatchTag
 	url = git://github.com/antond/MatchTag.git
+[submodule "bundle/jshint.vim"]
+	path = bundle/jshint.vim
+	url = git://github.com/antond/jshint.vim.git
