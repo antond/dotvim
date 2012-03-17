@@ -1,9 +1,40 @@
 set nocompatible
 
-source ~/.vim/bundle/vim-pathogen/autoload/pathogen.vim		"use pathogen as a submodule
-call pathogen#infect()						"invoke pathogen
-call pathogen#helptags()					"generate docs automatically
-call pathogen#runtime_append_all_bundles()			"load all the bundles
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+" Tell Vim to ignore BundleCommand until vundle supports it
+com! -nargs=? BundleCommand
+Bundle 'gmarik/vundle'
+
+Bundle 'antond/vim-fugitive'
+Bundle 'antond/vim-rails'
+Bundle 'antond/Command-T'
+Bundle 'antond/vim-rooter'
+Bundle 'antond/nerdtree'
+Bundle 'antond/VIM-Railscasts-Color-Theme'
+Bundle 'antond/html5.vim'
+Bundle 'antond/scss-syntax.vim'
+Bundle 'antond/vim-coffee-script'
+Bundle 'antond/vim-ruby'
+Bundle 'antond/vim-javascript'
+Bundle 'antond/jquery.vim'
+Bundle 'antond/sweet-rspec-vim'
+Bundle 'antond/vim-cucumber'
+Bundle 'antond/vim-slim'
+Bundle 'antond/vim-haml'
+Bundle 'antond/vim-markdown'
+Bundle 'antond/vim-surround'
+Bundle 'antond/vim-endwise'
+Bundle 'antond/zencoding-vim'
+Bundle 'antond/bufexplorer.zip'
+Bundle 'antond/snipmate.vim'
+Bundle 'antond/vim-rvm'
+Bundle 'antond/snipmate-snippets'
+Bundle 'antond/Align.git'
+Bundle 'antond/MatchTag'
+Bundle 'antond/jshint.vim'
+Bundle 'antond/vim-css3-syntax'
+
 filetype off							"prevent pathogen from failing to load
 syntax on							"enable syntax highlighting
 filetype plugin indent on					"turn on ftplugins and indents
