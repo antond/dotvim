@@ -1,1 +1,3 @@
-My .vim directory. At some point, I'll document what's in there...
+# Prerequisites #
+
+     npm install jshint
