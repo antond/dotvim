@@ -36,7 +36,7 @@ Bundle 'antond/jshint.vim'
 Bundle 'antond/vim-css3-syntax'
 Bundle 'antond/vim-stylus'
 Bundle 'antond/vim-jade'
-Bundle 'tcomment_vim'
+Bundle 'antond/tcomment_vim'
 
 filetype off							"prevent pathogen from failing to load
 syntax on							"enable syntax highlighting
