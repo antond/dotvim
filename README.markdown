@@ -12,7 +12,7 @@
      4. Launch vim and execute :BundleInstall
      5. Exit vim by executing :q!
      6. rvm use system # use this line if using rvm
-     6a. Maybe you will have to install bundle (gem install bundle) and run `bundle install`
+     6a. Maybe you will have to install bundler (gem install bundler) and run `bundle install`
      7. cd ~/.vim/bundle/Command-T/ruby/command-t
      8. ruby extconf.rb
      9. make
