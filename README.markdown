@@ -16,3 +16,10 @@
      7. cd ~/.vim/bundle/Command-T/ruby/command-t
      8. ruby extconf.rb
      9. make
+
+# Adding a plugin (example)
+
+     1. Create vim plugin repo on github or fork an existing one. You end up with something like antond/vim-fugitive
+     2. Edit ~/.vim/vimrc and add:
+          Bundle 'antond/vim-fugitive' # put this after the last Bundle
+     3. Launch vim and execute :BundleInstall
