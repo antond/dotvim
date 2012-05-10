@@ -42,6 +42,7 @@ Bundle 'antond/vim-easymotion'
 Bundle 'antond/snipmate-nodejs'
 Bundle 'antond/vim-scala'
 Bundle 'antond/scala-vim-snippets'
+Bundle 'antond/vim-handlebars'
 
 filetype off							"prevent pathogen from failing to load
 syntax on							"enable syntax highlighting
