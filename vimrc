@@ -33,6 +33,7 @@ Bundle 'antond/snipmate-snippets'
 Bundle 'antond/tabular'
 Bundle 'antond/MatchTag'
 Bundle 'antond/jshint.vim'
+Bundle 'antond/vim-css-color'
 Bundle 'antond/vim-css3-syntax'
 Bundle 'antond/vim-stylus'
 Bundle 'antond/vim-jade'
@@ -43,6 +44,7 @@ Bundle 'antond/snipmate-nodejs'
 Bundle 'antond/vim-scala'
 Bundle 'antond/scala-vim-snippets'
 Bundle 'antond/vim-handlebars'
+Bundle 'antond/vim-less'
 
 filetype off							"prevent pathogen from failing to load
 syntax on							"enable syntax highlighting
