@@ -1,4 +1,4 @@
-# Prerequisites #
+# Prerequisites (OS X) #
      brew install node
      curl http://npmjs.org/install.sh | sh
      npm install jshint -g
