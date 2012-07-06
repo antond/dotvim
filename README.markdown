@@ -3,12 +3,14 @@
      curl http://npmjs.org/install.sh | sh
      npm install jshint -g
      brew update && brew install macvim && brew linkapps
+     
+NOTE: Use https:// instead of git:// when cloning repos if you have commiter privileges
 
 # OS X Installation (for vim newbies) #
 
      1. cd ~ && echo "source ~/.vim/vimrc" > .vimrc
      2. git clone git://github.com/antond/dotvim ~/.vim
-     3. git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+     3. git clone git://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
      4. Launch vim (ignore railscasts warnings for now) and execute :BundleInstall
      5. Exit vim by executing :q!
      6. rvm use system # use this line if using rvm
@@ -27,8 +29,8 @@
 # Installation on Ubuntu #
      1. cd ~ && echo "source ~/.vim/vimrc" > .vimrc
      1a. cd ~ && echo "source ~/.vim/vimrc" > .vimrc # if you are using gvimrc
-     2. git clone https://github.com/antond/dotvim ~/.vim
-     3. git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+     2. git clone git://github.com/antond/dotvim ~/.vim
+     3. git clone git://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
      4. Launch vim (ignore railscasts warnings for now) and execute :BundleInstall
      5. Exit vim by executing :q!
      6. rvm use system # use this line if using rvm
