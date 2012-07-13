@@ -11,7 +11,7 @@ NOTE: Use https:// instead of git:// when cloning repos if you have commiter pri
      1. cd ~ && echo "source ~/.vim/vimrc" > .vimrc
      2. git clone git://github.com/antond/dotvim ~/.vim
      3. git clone git://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-     4. Launch vim (ignore railscasts warnings for now) and execute :BundleInstall
+     4. Launch vim from your terminal window by running mvim (ignore railscasts warnings for now) and execute :BundleInstall
      5. Exit vim by executing :q!
      6. rvm use system # use this line if using rvm
      6a. Maybe you will have to install bundler (gem install bundler) and run `bundle install`
