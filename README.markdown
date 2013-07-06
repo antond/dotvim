@@ -25,6 +25,10 @@ NOTE: Use https:// instead of git:// when cloning repos if you have commiter pri
      sudo apt-add-repository ppa:chris-lea/node.js
      sudo aptitude install python-software-properties exuberant-ctags ncurses-term curl nodejs npm
      sudo npm install -g jshint
+     
+# Prerequisites (Arch Linux)
+     sudo pacman -S nodejs
+     sudo npm install -g jshint
 
 # Installation on Ubuntu #
      1. cd ~ && echo "source ~/.vim/vimrc" > .vimrc
