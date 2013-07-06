@@ -23,11 +23,11 @@ NOTE: Use https:// instead of git:// when cloning repos if you have commiter pri
      sudo apt-get install aptitude # because I like it better :D
      sudo aptitude update
      sudo apt-add-repository ppa:chris-lea/node.js
-     sudo aptitude install python-software-properties exuberant-ctags ncurses-term curl nodejs npm
+     sudo aptitude install git-core python-software-properties exuberant-ctags ncurses-term curl nodejs npm
      sudo npm install -g jshint
      
 # Prerequisites (Arch Linux)
-     sudo pacman -S nodejs gvim
+     sudo pacman -S nodejs gvim git
      sudo npm install -g jshint
 
 # Installation on Ubuntu #
