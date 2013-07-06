@@ -27,7 +27,7 @@ NOTE: Use https:// instead of git:// when cloning repos if you have commiter pri
      sudo npm install -g jshint
      
 # Prerequisites (Arch Linux)
-     sudo pacman -S nodejs
+     sudo pacman -S nodejs gvim
      sudo npm install -g jshint
 
 # Installation on Ubuntu #
