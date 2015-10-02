@@ -1,8 +1,10 @@
 # Prerequisites (OS X) #
-     brew install node
-     curl http://npmjs.org/install.sh | sh
+     curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.28.0/install.sh | bash
+     nvm install stable
+     nvm use stable
+     npm install npm -g
      npm install jshint -g
-     brew update && brew install macvim && brew linkapps
+     brew install macvim && brew linkapps
      
 NOTE: Use https:// instead of git:// when cloning repos if you have commiter privileges
 
