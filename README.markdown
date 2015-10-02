@@ -34,7 +34,7 @@ NOTE: Use https:// instead of git:// when cloning repos if you have commiter pri
 
 # Installation on Ubuntu #
      1. cd ~ && echo "source ~/.vim/vimrc" > .vimrc
-     1a. cd ~ && echo "source ~/.vim/vimrc" > .vimrc # if you are using gvimrc
+     1a. cd ~ && echo "source ~/.vim/gvimrc" > .gvimrc # if you are using gvimrc
      2. git clone git://github.com/antond/dotvim ~/.vim
      3. git clone git://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
      4. Launch vim (ignore railscasts warnings for now) and execute :BundleInstall
